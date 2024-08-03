@@ -1,0 +1,331 @@
+@import "./variables.scss";
+
+.Header {
+  left: 0;
+  max-width: 1440px;
+  position: fixed;
+  top: 30px;
+  width: 100%;
+  z-index: 12;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 40px;
+  .navigationHolder {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 999;
+    justify-content: space-between;
+    .logo {
+      height: 36px;
+      width: 130px;
+      position: relative;
+      transition: all 0.5s ease;
+      overflow: hidden;
+      * {
+        transition: all 0.5s ease;
+      }
+      img,
+      svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+        transition: all 0.5s ease;
+      }
+      .logoImg,
+      .logoHover {
+        display: block;
+        transition: all 0.5s ease;
+      }
+      .logoHover {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        .cls1 {
+          fill: $white;
+          stroke-width: 0px;
+        }
+      }
+      .logoImg:hover > img {
+        opacity: 0;
+      }
+      .logoImg:hover .logoHover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@keyframes animateSvgFill1 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem1 {
+  animation: animateSvgFill1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+}
+@keyframes animateSvgFill2 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem2 {
+  animation: animateSvgFill2 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s both;
+}
+@keyframes animateSvgFill3 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem3 {
+  animation: animateSvgFill3 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1s both;
+}
+@keyframes animateSvgFill4 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem4 {
+  animation: animateSvgFill4 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s both;
+}
+@keyframes animateSvgFill5 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem5 {
+  animation: animateSvgFill5 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
+}
+@keyframes animateSvgFill6 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem6 {
+  animation: animateSvgFill6 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s both;
+}
+@keyframes animateSvgFill7 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem7 {
+  animation: animateSvgFill7 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4s both;
+}
+@keyframes animateSvgFill8 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem8 {
+  animation: animateSvgFill8 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s both;
+}
+@keyframes animateSvgFill9 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem9 {
+  animation: animateSvgFill9 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s both;
+}
+@keyframes animateSvgFill10 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem10 {
+  animation: animateSvgFill10 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7s both;
+}
+@keyframes animateSvgFill11 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem11 {
+  animation: animateSvgFill11 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s both;
+}
+@keyframes animateSvgFill12 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem12 {
+  animation: animateSvgFill12 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9s both;
+}
+@keyframes animateSvgFill13 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem13 {
+  animation: animateSvgFill13 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
+}
+@keyframes animateSvgFill14 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem14 {
+  animation: animateSvgFill14 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s both;
+}
+@keyframes animateSvgFill15 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem15 {
+  animation: animateSvgFill15 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s both;
+}
+@keyframes animateSvgFill16 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem16 {
+  animation: animateSvgFill16 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.3s both;
+}
+@keyframes animateSvgFill17 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem17 {
+  animation: animateSvgFill17 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.4s both;
+}
+@keyframes animateSvgFill18 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem18 {
+  animation: animateSvgFill18 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s both;
+}
+@keyframes animateSvgFill19 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem19 {
+  animation: animateSvgFill19 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.6s both;
+}
+@keyframes animateSvgFill20 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem20 {
+  animation: animateSvgFill20 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.7s both;
+}
+@keyframes animateSvgFill21 {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+.logoImg:hover .svgElem21 {
+  animation: animateSvgFill21 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2.8s both;
+}
+
+.navBar {
+  align-items: center;
+  border: 1px solid hsla(0, 0%, 100%, 0.3);
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: center;
+  min-height: 60px;
+  min-width: 60px;
+  width: 60px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #cbc3b2;
+    border-color: hsla(0, 0%, 100%, 0.3);
+  }
+  .navIcon {
+    background-color: #fff;
+    height: 1px;
+    width: 30px;
+    transition: transform 0.2s ease-out;
+    transform-origin: center center;
+    margin-top: 2px;
+    &.hamburgerTop {
+      margin-bottom: 3px;
+      margin-top: 0;
+    }
+  }
+}
+
+.navOpen {
+  .hamburgerTop {
+    transform: rotate(-45deg) translate(-2px, 2px);
+  }
+  .hamburgerBottom {
+    transform: rotate(45deg) translate(-2px, -2px);
+  }
+}

@@ -1,0 +1,169 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables.scss";
+
+@font-face {
+  font-family: "miller_displaylight";
+  src: url("/webfonts/fonnts.com-miller_display_light-webfont.woff2")
+      format("woff2"),
+    url("/webfonts/fonnts.com-miller_display_light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "chapregular";
+  src: url("/webfonts/chap-regular-webfont.woff2") format("woff2"),
+    url("/webfonts/chap-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: $white;
+  font-family: $font1;
+  font-size: $mpl + 4;
+  color: $black;
+  font-weight: $font-normal;
+}
+a,
+button {
+  transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+  color: $green;
+}
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: $black;
+}
+a,
+img {
+  border: none;
+  outline: none;
+}
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+label {
+  font-weight: $font-normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font1;
+  color: $black;
+  font-weight: $font-semibold;
+  margin: 0 0 $mpl + 10;
+}
+h1 {
+  font-size: $mpl + 32;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 28;
+  }
+  @media (max-width: $xl) {
+    font-size: $mpl + 22;
+  }
+}
+h2 {
+  font-size: $mpl + 26;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 22;
+  }
+  @media (max-width: $xl) {
+    font-size: $mpl + 18;
+  }
+}
+h3 {
+  font-size: $mpl + 20;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 18;
+  }
+  @media (max-width: $xl) {
+    font-size: $mpl + 14;
+  }
+}
+h4 {
+  font-size: $mpl + 14;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 10;
+  }
+}
+h5 {
+  font-size: $mpl + 10;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 8;
+  }
+}
+h6 {
+  font-size: $mpl + 8;
+  @media (max-width: $xxl) {
+    font-size: $mpl + 6;
+  }
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+p {
+  display: block;
+  margin: 0 0 $mpl + 6;
+  color: $black;
+}
+p:last-child {
+  margin: 0;
+}
+.form-group {
+  margin-bottom: $mpl + 10;
+}
+.form-control {
+  height: 50px;
+  line-height: 50px;
+  font-size: $mpl + 4;
+  color: $black;
+  background: $white;
+  border-radius: 10px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  padding: 0px $mpl + 6;
+}
+.form-control:focus {
+  color: $black;
+  background-color: $white;
+  border-color: $green;
+  outline: 0;
+  box-shadow: none;
+  outline: none;
+}
+select.form-control {
+  appearance: none;
+  padding: 0 $mpl + 6;
+  height: 45px !important;
+  line-height: 45px;
+  background: $white url(../../public/assets/arrow2.png) no-repeat center right
+    16px;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  position: relative;
+  margin: 0 auto;
+}
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+.sticky {
+  background: #023548;
+}
+.mainSec{
+  background-color: $black;
+}
